@@ -9,7 +9,7 @@
     "react": "0.0.0-experimental-f42431abe",
     "react-dom": "0.0.0-experimental-f42431abe",
     "react-markdown": "^4.2.2",
-    "react-relay": "0.0.0-experimental-8cc94ddc",
+    "react-relay": "file:../../relay/dist/react-relay",
     "react-router": "^5.1.2",
     "react-router-config": "^5.1.1",
     "react-scripts": "3.2.0",
@@ -39,13 +39,21 @@
     ]
   },
   "devDependencies": {
-    "babel-plugin-relay": "^9.0.0",
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-flow": "^7.12.1",
+    "@babel/preset-react": "^7.12.7",
+    "@babel/runtime": "^7.12.5",
+    "babel-plugin-relay": "file:../../relay/dist/babel-plugin-relay",
     "concurrently": "^5.0.0",
     "eslint-plugin-prettier": "^3.1.1",
     "get-graphql-schema": "^2.1.2",
-    "graphql": "^14.5.8",
+    "graphql": "^15.4.0",
     "prettier": "^1.18.2",
-    "relay-compiler": "^9.0.0"
+    "relay-compiler": "file:../../relay/dist/relay-compiler"
   },
   "husky": {
     "hooks": {
@@ -57,5 +65,9 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "resolutions": {
+    "react-relay/**/relay-runtime": "file:../../relay/dist/relay-runtime",
+    "relay-compiler/**/relay-runtime": "file:../../relay/dist/relay-runtime"
   }
 }

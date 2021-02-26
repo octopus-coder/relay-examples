@@ -16,7 +16,7 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-relay": "^10.1.0",
+    "react-relay": "file:../../relay/dist/react-relay",
     "todomvc-app-css": "^2.3.0",
     "todomvc-common": "^1.0.3",
     "whatwg-fetch": "3.5.0"
