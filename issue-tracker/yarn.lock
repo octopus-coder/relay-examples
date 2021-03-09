@@ -2334,7 +2334,7 @@ babel-plugin-polyfill-regenerator@^0.1.2:
     "@babel/helper-define-polyfill-provider" "^0.1.4"
 
 "babel-plugin-relay@file:../../relay/dist/babel-plugin-relay":
-  version "11.0.0-rc.0"
+  version "11.0.0"
   dependencies:
     babel-plugin-macros "^2.0.0"
 
@@ -9339,12 +9339,12 @@ react-markdown@^4.2.2:
     xtend "^4.0.1"
 
 "react-relay@file:../../relay/dist/react-relay":
-  version "11.0.0-rc.0"
+  version "11.0.0"
   dependencies:
     "@babel/runtime" "^7.0.0"
     fbjs "^3.0.0"
     nullthrows "^1.1.1"
-    relay-runtime "11.0.0-rc.0"
+    relay-runtime "11.0.0"
 
 react-router-config@^5.1.1:
   version "5.1.1"
@@ -9634,7 +9634,7 @@ relateurl@0.2.x:
   integrity sha1-VNvzd+UUQKypCkzSdGANP/LYiKk=
 
 "relay-compiler@file:../../relay/dist/relay-compiler":
-  version "11.0.0-rc.0"
+  version "11.0.0"
   dependencies:
     "@babel/core" "^7.0.0"
     "@babel/generator" "^7.5.0"
@@ -9649,12 +9649,12 @@ relateurl@0.2.x:
     glob "^7.1.1"
     immutable "~3.7.6"
     nullthrows "^1.1.1"
-    relay-runtime "11.0.0-rc.0"
+    relay-runtime "11.0.0"
     signedsource "^1.0.0"
     yargs "^15.3.1"
 
-relay-runtime@11.0.0-rc.0, "relay-runtime@file:../../relay/dist/relay-runtime":
-  version "11.0.0-rc.0"
+relay-runtime@11.0.0, "relay-runtime@file:../../relay/dist/relay-runtime":
+  version "11.0.0"
   dependencies:
     "@babel/runtime" "^7.0.0"
     fbjs "^3.0.0"
