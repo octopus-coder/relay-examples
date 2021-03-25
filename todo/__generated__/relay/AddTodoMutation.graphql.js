@@ -1,5 +1,8 @@
 /**
+ * @generated SignedSource<<90a4d04c7593fc24c583c4a38d95bd89>>
  * @flow
+ * @lightSyntaxTransform
+ * @nogrep
  */
 
 /* eslint-disable */
@@ -14,7 +17,7 @@ export type AddTodoInput = {|
   clientMutationId?: ?string,
 |};
 export type AddTodoMutationVariables = {|
-  input: AddTodoInput
+  input: AddTodoInput,
 |};
 export type AddTodoMutationResponse = {|
   +addTodo: ?{|
@@ -31,7 +34,7 @@ export type AddTodoMutationResponse = {|
       +id: string,
       +totalCount: number,
     |},
-  |}
+  |},
 |};
 export type AddTodoMutation = {|
   variables: AddTodoMutationVariables,
@@ -39,30 +42,7 @@ export type AddTodoMutation = {|
 |};
 */
 
-
-/*
-mutation AddTodoMutation(
-  $input: AddTodoInput!
-) {
-  addTodo(input: $input) {
-    todoEdge {
-      __typename
-      cursor
-      node {
-        complete
-        id
-        text
-      }
-    }
-    user {
-      id
-      totalCount
-    }
-  }
-}
-*/
-
-const node/*: ConcreteRequest*/ = (function(){
+var node/*: ConcreteRequest*/ = (function(){
 var v0 = [
   {
     "defaultValue": null,
@@ -193,7 +173,9 @@ return {
   }
 };
 })();
-// prettier-ignore
-(node/*: any*/).hash = 'c1931cfe1fd48fc43dedf1779558f244';
+
+if (__DEV__) {
+  (node/*: any*/).hash = "c1931cfe1fd48fc43dedf1779558f244";
+}
 
 module.exports = node;

@@ -5547,6 +5547,11 @@ regjsparser@^0.6.4:
   dependencies:
     jsesc "~0.5.0"
 
+relay-compiler-experimental@^0.0.0-master-5dd9c651:
+  version "0.0.0-master-5dd9c651"
+  resolved "https://registry.yarnpkg.com/relay-compiler-experimental/-/relay-compiler-experimental-0.0.0-master-5dd9c651.tgz#18821e61ba58bc4dc73a4e2536cd71424e0f5347"
+  integrity sha512-FpFOxiDBKPslgBbNqSMAYmKRh1rdOUKR8k7ZwNknEWOFk0qQldDAaz08slSriGPxH8WSopDPht/eAkfNKstT+g==
+
 relay-compiler@^11.0.0-rc.0:
   version "11.0.0-rc.0"
   resolved "https://registry.yarnpkg.com/relay-compiler/-/relay-compiler-11.0.0-rc.0.tgz#1a081c7f82ec87e56b2c6aa64738c54a95a2471c"

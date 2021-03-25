@@ -1,5 +1,8 @@
 /**
+ * @generated SignedSource<<3383f0fb2fd9f3b6c2a94a7da402d039>>
  * @flow
+ * @lightSyntaxTransform
+ * @nogrep
  */
 
 /* eslint-disable */
@@ -8,8 +11,8 @@
 
 /*::
 import type { ReaderFragment } from 'relay-runtime';
-import type { TodoListFooter_user$ref } from "./TodoListFooter_user.graphql";
-import type { TodoList_user$ref } from "./TodoList_user.graphql";
+type TodoListFooter_user$ref = any;
+type TodoList_user$ref = any;
 import type { FragmentReference } from "relay-runtime";
 declare export opaque type TodoApp_user$ref: FragmentReference;
 declare export opaque type TodoApp_user$fragmentType: TodoApp_user$ref;
@@ -28,8 +31,7 @@ export type TodoApp_user$key = {
 };
 */
 
-
-const node/*: ReaderFragment*/ = {
+var node/*: ReaderFragment*/ = {
   "argumentDefinitions": [],
   "kind": "Fragment",
   "metadata": null,
@@ -70,7 +72,9 @@ const node/*: ReaderFragment*/ = {
   "type": "User",
   "abstractKey": null
 };
-// prettier-ignore
-(node/*: any*/).hash = '2b7e5675921fb837e60dedfe29de4d93';
+
+if (__DEV__) {
+  (node/*: any*/).hash = "2b7e5675921fb837e60dedfe29de4d93";
+}
 
 module.exports = node;
