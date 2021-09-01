@@ -13,7 +13,7 @@
     "react-router": "^5.1.2",
     "react-router-config": "^5.1.1",
     "react-scripts": "3.2.0",
-    "relay-runtime": "^9.0.0"
+    "relay-runtime": "file:../../relay/dist/relay-runtime"
   },
   "scripts": {
     "start": "yarn run relay; concurrently --kill-others --names \"react-scripts,relay\" \"react-scripts start\" \"yarn run relay --watch\"",
